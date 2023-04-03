@@ -1,0 +1,410 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    width: 100%;
+}
+.nav-bar .nav-bar-wrapper ul{
+    display: flex;
+    justify-content: right;
+    margin-right: 10px; 
+}
+.nav-bar .nav-bar-wrapper ul li{
+    list-style-type: none;
+    padding: 20px 10px;
+}
+.nav-bar .nav-bar-wrapper ul li a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero-info{
+    padding: 50px 0;
+}
+.hero-info-wrapper ul{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-info-wrapper ul li{
+   list-style-type: none;
+}
+.hero-info-wrapper ul li h1{
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.hero-info-wrapper ul li p{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.hero-info-wrapper .hero-info-img img{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   object-fit: cover;
+   object-position: center center;
+}
+.hero-info-wrapper ul li a{
+   text-decoration: none;
+   color: white;
+   padding: 6px 12px;
+   display: inline-block;
+   background-color: orangered;
+   border: none;
+}
+.main-info{
+    max-width: 100%;
+    background-color: rgb(195, 221, 212);
+}
+.main-info-navbar {
+    padding: 15px 0;
+}
+.main-info-navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.main-info-navbar ul li{
+    list-style-type: none;
+}
+.main-info-navbar ul li a{
+    text-decoration: none;
+    color: rgb(2, 100, 67);
+}
+.main-info-detail{
+    display: flex;
+}
+.main-info-detail-box{
+    width: calc(50% - 20px);
+    height: 250px;
+    margin: 5px 10px 20px 0;
+    background-color: white;
+    padding: 15px;
+}
+.main-info-detail-box div{
+    width: 75%;
+    margin: 10px;
+}
+
+.main-info-detail-box ul{
+    display: flex;
+    margin: 15px 0;
+}
+.main-info-detail-box ul li{
+    list-style-type: none;
+}
+.main-info-detail-box ul li h4{
+    margin-top: 5px;
+}
+.main-info-detail-box ul li h2{
+    margin: 0 10px;
+}
+.main-detail-navbar{
+    margin: 20px 0;
+}
+.main-detail-wrapper a{
+    text-decoration: none;
+    color: black;
+}
+.main-detail-wrapper-box{
+    display: flex;
+    border-bottom: 1px solid rgb(189, 185, 185);
+    padding: 10px 0;
+}
+.main-detail-wrapper-box figure img{
+    max-width: 300px;
+    height: 200px;
+    margin: 8px 0 14px 0;
+}
+.main-detail-wrapper-content{
+    margin: 0 10px;
+}
+.main-detail-wrapper-content ul {
+    display: flex;
+}
+.main-detail-wrapper-content ul li{
+    list-style-type: none;
+    margin: 10px 0;
+}
+.main-detail-wrapper-content ul li div{
+    margin-right: 20px;
+    padding: 4px 8px;
+    border-radius: 35%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.main-detail-wrapper-content ul li h5{
+    color: grey;
+    text-align: center;
+    font-size: larger;
+    font-weight: lighter;
+}
+.footer-container{
+    max-width:250px;
+    margin: 10px auto;
+}
+.footer-logo-wrapper ul{
+    display: flex;
+    padding: 20px 5px 5px 5px;
+    justify-content: center;
+}
+.footer-logo-wrapper ul li{
+   list-style-type: none;
+   margin-right: 10px;
+}
+.footer-logo-wrapper ul li a{
+   text-decoration: none;
+   color: purple;
+   font-weight: bold;
+}
+.footer-container h4{
+    text-align: center;
+    margin-top: 0;
+}
+
+
+
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+}
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    .sm-hide{
+        display: none;
+    }
+    .nav-bar{
+        width: 100%;
+    }
+    .nav-bar .nav-bar-wrapper ul{
+        display: flex;
+        justify-content: right;
+        margin-right: 30px; 
+    }
+    .nav-bar .nav-bar-wrapper ul li{
+        list-style-type: none;
+        padding: 20px 2px;
+    }
+    .nav-bar .nav-bar-wrapper ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .hero-info{
+        padding: 50px 0;
+    }
+    .hero-info-wrapper {
+       display: block;
+    }
+    .hero-info-wrapper ul{
+       display: block;
+    }
+    .hero-info-wrapper ul li{
+       list-style-type: none;  
+    }
+    .hero-info-wrapper .hero-info-img img{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       object-fit: cover;
+       object-position: center center;
+       margin-bottom: 50px;
+       margin-left: 33%;
+    }
+    .hero-info-wrapper ul li h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .hero-info-wrapper ul li p{
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+    .hero-info-wrapper ul li a{
+       text-decoration: none;
+       color: white;
+       padding: 6px 12px;
+       display: inline-block;
+       background-color: orangered;
+       border: none;
+       text-align: center;
+        margin-left: 39%;
+    }
+    .main-info{
+        max-width: 100%;
+        background-color: rgb(195, 221, 212);
+    }
+    .main-info-navbar {
+        padding: 15px 0;
+    }
+    .main-info-navbar ul{
+        display: flex;
+        justify-content: center;
+    }
+    .main-info-navbar ul li{
+        list-style-type: none;
+        text-align: center;
+        
+    }
+    .main-info-detail{
+        display: block;
+    }
+    .main-info-detail-box{
+        width: 50%;
+        height: 200px;
+        margin: 25px 10px 20px 25%;
+        background-color: white;
+        padding: 15px;
+    }
+    .main-info-detail-box div{
+        width: 100%;
+        margin: 2px;
+        text-align: center;
+    }
+    
+    .main-info-detail-box ul{
+        display: flex;
+        margin: 15px 0;
+    }
+    .main-info-detail-box ul li{
+        list-style-type: none;
+    }
+    .main-info-detail-box ul li h4{
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    .main-info-detail-box ul li h2{
+        margin: 0 3px;
+    }
+    .main-info-detail-box p{
+        font-size: 13px;
+        text-align: center;
+    }
+    .main-detail-navbar{
+        margin: 20px 0;
+        text-align: center;
+    }
+    .main-detail-wrapper a{
+        text-decoration: none;
+        color: black;
+    }
+    .main-detail-wrapper-box{
+        display: block;
+        border-bottom: 1px solid rgb(189, 185, 185);
+        padding: 10px 0;
+    }
+    .main-detail-wrapper-box figure img{
+        max-width: 250px;
+        height: 150px;
+        margin: 8px 0 14px 50%;
+        transform: translateX(-50%);
+    }
+    .main-detail-wrapper-content{
+        margin: 0 10px;
+    }
+    .main-detail-wrapper-content ul {
+        display: flex;
+    }
+    .main-detail-wrapper-content ul li{
+        list-style-type: none;
+        margin: 10px 0;
+    }
+    .main-detail-wrapper-content ul li div{
+        margin-right: 20px;
+        padding: 4px 8px;
+        border-radius: 35%;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    .main-detail-wrapper-content ul li h5{
+        color: grey;
+        text-align: center;
+        font-size: larger;
+        font-weight: lighter;
+    }
+    .footer-container{
+        max-width:250px;
+        margin: 10px auto;
+    }
+    .footer-logo-wrapper ul{
+        display: flex;
+        padding: 20px 5px 5px 5px;
+        justify-content: center;
+    }
+    .footer-logo-wrapper ul li{
+       list-style-type: none;
+       margin-right: 10px;
+    }
+    .footer-logo-wrapper ul li a{
+       text-decoration: none;
+       color: purple;
+       font-weight: bold;
+    }
+    .footer-container h4{
+        text-align: center;
+        margin-top: 0;
+    }
+    
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+   
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+   
+}
+
+/* X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) { 
+   
+}
+
+/* XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
+
+
+
+
+/* X-Small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+   
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .lg-hide{
+        display: none;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    
+ }
+
+
+ 
